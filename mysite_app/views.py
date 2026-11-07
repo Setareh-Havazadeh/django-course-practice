@@ -3,14 +3,16 @@ from django.shortcuts import render
 
 def index_view(request):
 
-    return render(request,'index.html')
+    return render(request, "mysite/index.html")
 
 
 def contact_view(request):
 
-    return render(request,'contact.html')
+    return render(request, "mysite/contact.html")
 
 
 def about_view(request):
 
-    return render(request,'about.html')
+    return render(request, "mysite/about.html")
+def elements_view(request):
+    return render(request, "mysite/elements.html")
